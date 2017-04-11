@@ -9,6 +9,7 @@ import java.io.File;
 /**
  * Created by Fisher on 4/1/2017.
  */
+// CSVSupplier's instantiation will be delayed -- changed to lazy instantiation
 public class CSVSupplierProvider implements Provider<CSVSupplier> {
     // all the attributes initialization will be completed here
     private String csvFolderPath;
